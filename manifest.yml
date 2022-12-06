@@ -1,0 +1,8 @@
+---
+applications:
+- name: lma-pdf
+  path: ./
+  memory: 256M
+  disk_quota: 256MB
+  buildpack: python_buildpack
+  command: python lma-pdf.py
